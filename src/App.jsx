@@ -9,11 +9,19 @@ function App() {
 
   return (
     <>
-    <div className="grid grid-cols-4 gap-10">
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
+    <div className="grid grid-cols-4 gap-5">
+      <Card 
+      title = "Spiaggia"
+      imgURL="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"> </Card>
+      <Card 
+      title = "New York"
+      imgURL="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></Card>
+      <Card 
+      title = "Rome"
+      imgURL="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></Card>
+      <Card 
+      title = "Paris"
+      imgURL="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></Card>
     </div>
 
     {/*
